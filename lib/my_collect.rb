@@ -5,8 +5,7 @@ def my_collect(array)
     my_collect(array).do |lang|
     lang.upcase
     new << lang.upcase
-    i +=1 
+    i +=1
   end
   array
 end
-
